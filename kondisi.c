@@ -30,9 +30,9 @@ int main()
     }
 
     // Untuk mencetak kembali array yang sudah terurut dapat menggunakan for loop
-    for (i = 0; i < len; i++)
+    for (o = 0; o < len; o++)
     {
-        printf("%d ", number[i]);
+        printf("%d ", number[o]);
     }
     
     printf("\n");
