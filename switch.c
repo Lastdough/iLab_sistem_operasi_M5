@@ -10,10 +10,6 @@ int main()
     tampilanMenu();
     scanf("%i", &pilihan);
     switchCaseMenu(pilihan);
-    //output menu
-    //switch case menu
-    // input user
-
 }
 
 void tampilanMenu()
