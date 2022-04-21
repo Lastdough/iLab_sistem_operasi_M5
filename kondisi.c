@@ -6,19 +6,19 @@ int main()
     int number[] = {11, 4, 16, 19, 5, 14, 8, 13};
     // variable len menyimpan panjang array
     int len = (sizeof(number) / sizeof(*number));
-
+    int i, j, o;
     /**
      * For loop pertama untuk mengulang pengurutan sebanyak
      * panjang himpunan number pada array
      */
-    for (int i = 0; i < len; i++)
+    for (i = 0; i < len; i++)
     {
         /**
          * For loop kedua untuk mengulang perbandingan angka pada index 
          * array number i dan dan j menggunakan kondisi if 
          * jika number[j] < number[i] posisi angka akan di tukar 
          */
-        for (int j = i + 1; j < len; j++)
+        for (j = i + 1; j < len; j++)
         {
             if (number[j] < number[i])
             {
@@ -30,7 +30,7 @@ int main()
     }
 
     // Untuk mencetak kembali array yang sudah terurut dapat menggunakan for loop
-    for (int i = 0; i < len; i++)
+    for (i = 0; i < len; i++)
     {
         printf("%d ", number[i]);
     }
