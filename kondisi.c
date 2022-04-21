@@ -16,7 +16,7 @@ int main()
         /**
          * For loop kedua untuk mengulang perbandingan angka pada index 
          * array number i dan dan j menggunakan kondisi if 
-         * jika number[j] < number[i] maka akan posisi angka akan di tukar 
+         * jika number[j] < number[i] posisi angka akan di tukar 
          */
         for (int j = i + 1; j < len; j++)
         {
