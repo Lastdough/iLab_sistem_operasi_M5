@@ -7,9 +7,17 @@ int main()
     // variable len menyimpan panjang array
     int len = (sizeof(number) / sizeof(*number));
 
-    //
+    /**
+     * For loop pertama untuk mengulang pengurutan sebanyak
+     * panjang himpunan number pada array
+     */
     for (int i = 0; i < len; i++)
     {
+        /**
+         * For loop kedua untuk mengulang perbandingan angka pada index 
+         * array number i dan dan j menggunakan kondisi if 
+         * jika number[j] < number[i] maka akan posisi angka akan di tukar 
+         */
         for (int j = i + 1; j < len; j++)
         {
             if (number[j] < number[i])
@@ -21,10 +29,12 @@ int main()
         }
     }
 
+    // Untuk mencetak kembali array yang sudah terurut dapat menggunakan for loop
     for (int i = 0; i < len; i++)
     {
         printf("%d ", number[i]);
     }
+    
     printf("\n");
     return 0;
 }
